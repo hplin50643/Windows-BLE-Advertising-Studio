@@ -17,7 +17,7 @@
 
 ## 下載
 
-**[前往 GitHub Releases 下載 Windows 版本](https://github.com/root50643/Windows-BLE-Advertising-Studio/releases)**
+**[前往 GitHub Releases 下載 Windows 版本](https://github.com/hplin50643/Windows-BLE-Advertising-Studio/releases)**
 
 一般使用者建議下載 `Windows-BLE-Advertising-Studio-v1.0.0-win-x64.zip`，
 完整解壓縮後，開啟 `Windows-BLE-Advertising-Studio-win-x64/BLEStudio.exe`。
@@ -226,12 +226,12 @@ EXE 為自包含單檔 WinExe，已停用裁剪；原生執行階段檔案可能
 
 ## GitHub Releases 與 CI/CD
 
-儲存庫：[root50643/Windows-BLE-Advertising-Studio](https://github.com/root50643/Windows-BLE-Advertising-Studio)。
+儲存庫：[hplin50643/Windows-BLE-Advertising-Studio](https://github.com/hplin50643/Windows-BLE-Advertising-Studio)。
 Windows GitHub Actions 會在分支 Push／Pull Request 時建置、測試並上傳發布成品。
 推送 `vX.Y.Z` Tag 會執行完整建置及發布 EXE 的模擬 GUI 檢查，再建立 GitHub Release，
 附上 **EXE、ZIP、SHA256 清單、建置資訊與 Release Notes**。
 CI 使用模擬後端，不需要實體藍牙硬體。
-各次實際執行結果請見[Actions](https://github.com/root50643/Windows-BLE-Advertising-Studio/actions)，
+各次實際執行結果請見[Actions](https://github.com/hplin50643/Windows-BLE-Advertising-Studio/actions)，
 發布作業說明見[文件](docs/releasing.md)。
 
 ## 已知限制

@@ -18,7 +18,7 @@ Select a protocol, create/import an owned private key, confirm ownership/tester 
 
 ## Download
 
-**[Download Windows builds from GitHub Releases](https://github.com/root50643/Windows-BLE-Advertising-Studio/releases)**
+**[Download Windows builds from GitHub Releases](https://github.com/hplin50643/Windows-BLE-Advertising-Studio/releases)**
 
 Download `Windows-BLE-Advertising-Studio-v1.0.0-win-x64.zip`, extract the complete
 ZIP and open `Windows-BLE-Advertising-Studio-win-x64/BLEStudio.exe`. No Visual
@@ -222,8 +222,8 @@ upload the published ZIP. A `vX.Y.Z` tag runs the full pipeline and published
 GUI smoke checks, then uses the repository-scoped GitHub token to create a
 Release with standalone EXE, ZIP, checksums, build information and release notes.
 No Bluetooth hardware is required in CI. Source is hosted at
-[root50643/Windows-BLE-Advertising-Studio](https://github.com/root50643/Windows-BLE-Advertising-Studio);
-actual workflow results are available in [Actions](https://github.com/root50643/Windows-BLE-Advertising-Studio/actions).
+[hplin50643/Windows-BLE-Advertising-Studio](https://github.com/hplin50643/Windows-BLE-Advertising-Studio);
+actual workflow results are available in [Actions](https://github.com/hplin50643/Windows-BLE-Advertising-Studio/actions).
 
 ## Known Limitations
 
